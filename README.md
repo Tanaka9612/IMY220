@@ -1,5 +1,5 @@
-# IMY220
-IMY220 Project
+# Article sharing website
+Project
 
 An article sharing website 
--I
+
