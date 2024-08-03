@@ -1,5 +1,6 @@
-# Article sharing website
-Project
+# Playlist sharing website
+Project for IMY 220
 
-An article sharing website 
+A playlist sharing website
+
 
