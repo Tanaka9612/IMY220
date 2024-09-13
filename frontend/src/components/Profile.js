@@ -12,7 +12,7 @@ class ProfilePage extends React.Component {
             <ul>
               <li><Link to=''>Settings</Link></li>
               <li><Link to=''>Friends</Link></li>
-              <li><Link to='/playlist'>My playlists</Link></li>
+              <li><Link to='/playlistpreview'>My playlists</Link></li>
             </ul>
           </nav>
         </div>

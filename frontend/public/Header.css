@@ -7,8 +7,8 @@
     width: 100%;
     padding: 10px;
     /* float: right; */
-    font-family: 'Quicksand', sans-serif; /* Use font-family with fallback */
-    font-weight: 500; /* Apply a default weight */
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 500; 
     justify-content: right;
 }
 
@@ -110,17 +110,15 @@ form >*{
     text-align: center;
 }
 
-/* Overall page layout */
 .profile-page {
     display: flex;
     height: 100vh;
-    background-color: #121212; /* Dark background */
+    background-color: #121212; 
   }
   
-  /* Sidebar */
   .sidebar {
     width: 250px;
-    background-color: #4A61FF; /* Blue color */
+    background-color: #4A61FF; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -132,7 +130,7 @@ form >*{
     margin-top: 70px;
     width: 80px;
     height: 80px;
-    background-color: black; /* Placeholder for profile picture */
+    background-color: black; 
     border-radius: 50%;
     margin-bottom: 20px;
   }
@@ -153,12 +151,11 @@ form >*{
     cursor: pointer;
   }
   
-  /* Main content */
+
   .main-content {
     flex-grow: 1;
     padding: 40px;
     color: white;
-    background: linear-gradient(135deg, #1E1E2A, #121212); /* Gradient dark background */
   }
   
   header {
@@ -177,7 +174,7 @@ form >*{
     font-size: 20px;
   }
   
-  /* Playlists and Favorites section */
+
   .playlists-section, .favorites-section {
     margin-top: 40px;
   }
@@ -194,9 +191,9 @@ form >*{
   }
   
   .playlist-item {
-    background-color: #C4C4C4; /* Placeholder for playlist item */
+    background-color: #C4C4C4; 
     width: 100%;
-    padding-top: 56.25%; /* Aspect ratio of 16:9 */
+    padding-top: 56.25%; 
   }
   body {
     font-family: Arial, sans-serif;

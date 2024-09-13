@@ -7,6 +7,7 @@ import Help from "./components/Help";
 import Login from "./components/Login";
 import Profile from "./components/Profile"
 import Playlist from "./components/Playlist";
+import PlaylistPreview from "./components/PlaylistPreview";
 
 
 class App extends React.Component{
@@ -31,8 +32,8 @@ class App extends React.Component{
                     <Route path='/help' element={<Help/>}/>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/profile' element={<Profile/>}/>
-                    <Route path='/playlist' element={<Playlist/>}/>
-                    {/* <Route path='/' element={}/> */}
+                    {/* <Route path='/playlist' element={<Playlist/>}/> */}
+                    <Route path='/playlistpreview' element={<PlaylistPreview/>}/>
                 </Routes>
                 {/* <Home/> */}
             </BrowserRouter>
